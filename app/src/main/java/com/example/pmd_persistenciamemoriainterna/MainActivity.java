@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         BGuardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(sdEstado.equals(Environment.MEDIA_MOUNTED){
+                if(sdEstado.equals(Environment.MEDIA_MOUNTED)){
 
                     try {
                         File rutaSD = Environment.getExternalStorageDirectory();
